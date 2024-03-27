@@ -1,6 +1,6 @@
 # Desenvolvimento Web 
 
-Neste repositório armazeno todo o conteúdo prático realizado nas aulas de desenvolvimento Web, no curso de DSM na FATEC de Jahu
+Neste repositório armazeno todo o conteúdo prático realizado nas aulas de `desenvolvimento Web` no curso de DSM na FATEC de Jahu
 ## Sobre o nome das pastas
  O nome de cada uma das pastas indica o `mês` e o `dia` que houve aquela aula. Segue um exemplo abaixo:
  
