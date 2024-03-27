@@ -1,0 +1,28 @@
+table{
+    border-collapse: collapse;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    overflow: hidden;
+    width:100%;
+    margin:2% 0 2% 0;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    cursor: default;
+}
+
+table thead tr{
+    background:#000;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 2%;
+}
+
+table tbody td, table thead th {padding :10px; }
+
+table tbody td { border-bottom:1px solid #ddd;}
+
+table tbody tr:hover{
+    background-color: yellow; cursor: crosshair;
+}
+
+.zebra { background:#eee;}

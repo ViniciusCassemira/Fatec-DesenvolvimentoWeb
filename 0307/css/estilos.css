@@ -1,0 +1,36 @@
+* { margin: 0; padding: 0;}
+
+body{
+    background: #eee; padding: 5%; font-family: "Trebuchet MS";
+}
+
+#corpo {
+    background: #fff;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .3);
+    margin: 0 auto;
+}
+
+header{
+    background-color: #ccc;
+    padding: 2%;
+    border-bottom: 1px solid #999;
+}
+
+header h1 {
+    text-align: center;
+    text-shadow: 1px 1px 2px #fff;
+    text-transform: uppercase;
+}
+
+main{
+    padding: 2%;
+}
+
+footer{
+    background: #ccc;
+    text-align: center;
+    padding: 2%;
+    border-top: 1px solid #999;
+}
