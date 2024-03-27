@@ -12,5 +12,5 @@ Neste repositório armazeno todo o conteúdo prático realizado nas aulas de des
 ## Outros conteúdos feitos em sala
 
 * [Algoritmos e Lógica de programação](https://github.com/vinicciuus/algoritmos)
-* [Desenvolvimento Web](https://github.com/vinicciuus/DeenvolvimentoWeb)
+* [Desenvolvimento Web](https://github.com/vinicciuus/DesenvolvimentoWeb)
 * em breve
