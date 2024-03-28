@@ -1,0 +1,66 @@
+#sobre-nos{
+    margin-top: 2%;
+}
+
+#sobre-nos aside video{
+    max-widht: 100%;
+}
+
+#sobre-nos aside, #sobre-nos article {
+    background: #eee;
+    width: 42%;
+    float: left;
+    margin:1%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba( 0, 0, 0, .1);
+    text-align: center;
+    box-sizing: border-box;
+} 
+
+#sobre-nos article{
+    width: 54%;
+    text-align: left;
+    padding: 1%;
+}
+
+#sobre-nos article p {
+    margin-bottom: 5%;
+    line-height: 25px;  
+}
+
+article h3 {
+    text-transform: uppercase;
+}
+
+#fotos{
+    overflow: hidden;
+    clear: both;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba( 0, 0, 0, .1);
+}
+
+figure {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    float: left;
+    padding: 5px;
+    max-width: 30%;
+    margin: 1%;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+figcaption{
+    background-color: #222;
+    border-radius: 10px;
+    color: #fff;
+    padding: 3px;
+    text-align: center;
+}
