@@ -6,8 +6,8 @@ Neste repositório armazeno todo o conteúdo prático realizado nas aulas de `de
  
  <img src="https://cdn.discordapp.com/attachments/1187060174163284020/1222630788743565312/img3.PNG?ex=6616eaa7&is=660475a7&hm=4cc43b8a27edaf13408093bfb11334a82e16adcc96029149747c85b8bc14fd30&">
 
-- `02`22 indica o <i>mês</i> de Fevereiro
-- 02`22` remete ao <i>dia</i> 22 
+- `02`22 indica o <b>mês</b> de Fevereiro
+- 02`22` remete ao <b>dia</b> 22 de Fevereiro
 
 ## Outros conteúdos feitos em sala
 
