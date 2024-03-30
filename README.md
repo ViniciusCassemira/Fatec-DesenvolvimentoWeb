@@ -20,6 +20,6 @@ A datas abaixo estão no formato `dia`/`mês`:
 
 ## Outros conteúdos feitos em sala
 
-* [Algoritmos e Lógica de programação](https://github.com/vinicciuus/algoritmos)
-* [Desenvolvimento Web](https://github.com/vinicciuus/DesenvolvimentoWeb)
+* [Algoritmos e Lógica de programação](https://github.com/viniciuscassemira/algoritmos)
+* [Desenvolvimento Web](https://github.com/viniciuscassemira/DesenvolvimentoWeb)
 * em breve
