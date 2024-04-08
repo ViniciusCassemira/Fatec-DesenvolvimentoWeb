@@ -15,11 +15,13 @@ A datas abaixo estão no formato `dia`/`mês`:
 - 29/02: Concentos básicos de CSS
 - 07/03: Tabelas Semânticas
 - 14/03: Formulários
+- 21/03: Fundamentos básicos Git e Github <i>(não foi criado repositório dessa aula)</i>
 - 28/03: Imagens e Multimídia
+- 04/04: Exercício com git e github em dupla <i>(Link para o repositório logo abaixo)</i>
 
 
 ## Outros conteúdos feitos em sala
 
 * [Algoritmos e Lógica de programação](https://github.com/viniciuscassemira/algoritmos)
 * [Desenvolvimento Web](https://github.com/viniciuscassemira/DesenvolvimentoWeb)
-* em breve
+* [Repositório da aula do dia 04/04](https://github.com/ViniciusCassemira/AulaDesenvolvimentoWeb1_0404)
