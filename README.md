@@ -1,6 +1,6 @@
 # Desenvolvimento Web 
 
-Neste repositório armazeno todo o conteúdo prático realizado nas aulas de `desenvolvimento Web` no curso de DSM na FATEC de Jahu
+Neste repositório armazeno alguns dos conteúdos práticos realizados nas aulas de `desenvolvimento Web` no curso de DSM na FATEC de Jahu
 ## Sobre o nome das pastas:
  O nome de cada uma das pastas indica o `mês`/`dia` que houve aquela aula. Segue um exemplo abaixo:
  
@@ -15,13 +15,13 @@ A datas abaixo estão no formato `dia`/`mês`:
 - 29/02: Concentos básicos de CSS
 - 07/03: Tabelas Semânticas
 - 14/03: Formulários
-- 21/03: Fundamentos básicos Git e Github <i>(não foi criado repositório dessa aula)</i>
+- 21/03: Fundamentos básicos Git e Github [Acesse o repositório dessa aula por aqui](https://github.com/ViniciusCassemira/AulaDesenvolvimentoWeb1_2103)
 - 28/03: Imagens e Multimídia
-- 04/04: Exercício com git e github em dupla <i>(Link para o repositório logo abaixo)</i>
+- 04/04: Exercício com git e github em dupla [Acesse o repositório dessa aula por aqui](https://github.com/ViniciusCassemira/AulaDesenvolvimentoWeb1_0404)
 
 
 ## Outros conteúdos feitos em sala
 
 * [Algoritmos e Lógica de programação](https://github.com/viniciuscassemira/algoritmos)
 * [Desenvolvimento Web](https://github.com/viniciuscassemira/DesenvolvimentoWeb)
-* [Repositório da aula do dia 04/04](https://github.com/ViniciusCassemira/AulaDesenvolvimentoWeb1_0404)
+* em breve
