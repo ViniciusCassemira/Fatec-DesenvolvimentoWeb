@@ -18,6 +18,7 @@ A datas abaixo estão no formato `dia`/`mês`:
 - 21/03: Fundamentos básicos Git e Github [Acesse o repositório dessa aula por aqui](https://github.com/ViniciusCassemira/AulaDesenvolvimentoWeb1_2103)
 - 28/03: Imagens e Multimídia
 - 04/04: Exercício com git e github em dupla [Acesse o repositório dessa aula por aqui](https://github.com/ViniciusCassemira/AulaDesenvolvimentoWeb1_0404)
+- 11/04: Exercício criando branch / merge / pull request [Acesse o repositório dessa aula por aqui](https://github.com/ViniciusCassemira/AulaDesenvolvimentoWeb1_1104) 
 
 
 ## Outros conteúdos feitos em sala
