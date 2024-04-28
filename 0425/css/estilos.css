@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body{
+    overflow: hidden;
+
+    animation-name: anim0;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+
+}
+
+h1{
+    width: 200px;
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 3% auto;
+    
+    animation-name: anim1;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+.bloco1{
+    width: 100px;
+    height: 100px;
+    margin: 2% auto;
+    background: green;
+
+    animation-name: anim2;
+    animation-duration: 6s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+.bloco2{
+    width: 300px;
+    margin: 3% auto;
+    text-align: center;
+    font-size: 35px;
+    color: purple;
+
+    animation-name:anim3 ;
+    animation-duration: 5s;
+    animation-timing-function: cubic-bezier(.34,.57,.75,.39);
+    animation-iteration-count: infinite;
+}
+
+.bloco3{
+    width: 10px;
+    height: 40px;
+    margin: 1% auto;
+    
+    animation-name: anim4;
+    animation-duration: 4s;
+    animation-timing-function: cubic-bezier(.36,.88,.78,.22);
+    animation-iteration-count: infinite;
+}
+.bloco4{
+    width: 10px;
+    height: 40px;
+    margin: 1% auto;
+    
+    animation-name: anim4;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3%;
+    align-items: center;
+}
+
+.blocoFoto{
+    width: 280px;
+    height: 140px;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 4px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+
+    animation-name: anim6;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+.bloco5{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 6px;
+}
+
+.bloco5:hover + .bloco6{
+    background-color: blue;
+}
+
+
+.bloco6{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    
+    animation-name: anim5;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+.bloco7{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    
+    animation-name: anim5;
+    animation-duration: 3s;
+    animation-timing-function: cubic-bezier(1,.68,0,1.08)e-out;
+    animation-iteration-count: infinite;
+}
+
+/*Animações*/
+@keyframes anim0{
+    0%{
+        background-color: white;
+    }
+    50%{
+        background-color: rgb(71, 71, 71);
+    }
+    100%{
+        background-color: white;
+    }
+}
+
+@keyframes anim1{
+    0%{
+        transform: skewY(0deg);
+        color: rgb(255, 0, 0);
+    }
+    25%{
+        transform: skewY(27.5deg);
+        color: rgb(250, 9, 238);
+    }
+    50%{
+        transform: skewY(0deg);
+        color: rgb(40, 233, 40);
+    }
+    75%{
+        transform: skewY(-27.5deg);
+        color: rgb(50, 29, 238);
+    }
+    100%{
+        transform: skewY(0deg);
+        color: rgb(255, 0, 0);
+    }
+}
+
+@keyframes anim2{
+    from{
+        transform: rotate(0deg) scale(1);
+        margin-left: 0%;
+    }
+
+    to{
+        transform: rotate(360deg) scale(0);
+        margin-left: 100%;
+    }
+}
+
+@keyframes anim3{
+    0%{
+        transform: rotate(0deg);
+        margin-right: 0%;
+    }
+    50%{
+        transform: rotate(10deg);
+        margin-right: 50%;
+    }
+    100%{
+        transform: rotate(20deg);
+        margin-right: 0%;
+    }
+}
+
+@keyframes anim4{
+    from{
+        margin-left: 0;
+        width: 0%;
+        background-color: rgb(255, 255, 0);
+    }
+    to{
+        margin-left: 0;
+        width: 100%;
+        background-color: green;
+    }
+}
+
+@keyframes anim5{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes anim6 {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity:0.0;
+    }
+}
