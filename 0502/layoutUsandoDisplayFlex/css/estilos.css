@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav, article, aside{
+    height: 400px;
+}
+header, footer{
+    background-color: red;
+}
+main{
+    display: flex;
+}
+
+nav{
+    width: 30%;
+    background-color: blue;
+}
+
+article{
+    width: 50%;
+    background-color: green;
+}
+
+aside{
+    width:20%;
+    background-color: brown;
+}

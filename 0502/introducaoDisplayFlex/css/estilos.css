@@ -1,0 +1,29 @@
+*{
+    margin:0;}
+
+h1{
+    text-align: center;
+    background-color:azure;
+}
+
+.container{
+    height: 400px;
+    background-color: rgb(21, 29, 141);
+
+    display: flex;
+    flex-direction: row-reverse;/*direção dos itens*/
+    justify-content: space-around; /*alinha no centro principal*/
+    align-items: center; /*alinha no centro secundário*/
+    
+}
+.container-inline{
+    display: inline-flex;
+}
+
+.item{
+    background-color: rgb(70, 33, 233);
+    padding: 3px;
+    border-radius: 4px;
+}
+
+.item-top{align-self: flex-start;}/*alinhando unico item*/

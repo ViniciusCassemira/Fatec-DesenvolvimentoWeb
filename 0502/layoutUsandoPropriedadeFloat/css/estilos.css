@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+header, footer{
+    width: 100%;
+    background-color: red;
+}
+
+nav, article, aside{
+    float: left;
+    height: 400px;
+}
+
+nav{
+    width: 30%; 
+    background-color: blue;
+}
+
+article{
+    width: 50%;
+    background-color: green;
+}
+
+aside{
+    width: 20%;
+    background-color: brown;
+}
+
