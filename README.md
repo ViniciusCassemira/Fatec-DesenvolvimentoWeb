@@ -20,7 +20,8 @@ A datas abaixo estão no formato `dia`/`mês`:
 - 04/04: Exercício com git e github em dupla [Acesse o repositório dessa aula por aqui](https://github.com/ViniciusCassemira/AulaDesenvolvimentoWeb1_0404)
 - 11/04: Exercício criando branch / merge / pull request [Acesse o repositório dessa aula por aqui](https://github.com/ViniciusCassemira/AulaDesenvolvimentoWeb1_1104)
 - 18/04: Prova 1 Desenvolvimento Web [Confira o repositório do meu resultado da prova clicando aqui](https://github.com/ViniciusCassemira/provaWeb)
-- 25/04: Animações e transições em CSS 
+- 25/04: Animações e transições em CSS
+- 02/05: Introdução ao Display Flex
 
 
 ## Outros conteúdos feitos em sala
