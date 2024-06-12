@@ -26,5 +26,5 @@ A datas abaixo estão no formato `dia`/`mês`:
 ## Outros conteúdos feitos em sala
 
 * [Algoritmos e Lógica de programação](https://github.com/viniciuscassemira/algoritmos)
-* [Desenvolvimento Web](https://github.com/viniciuscassemira/DesenvolvimentoWeb)
-* em breve
+* [1º prova Desenvolvimento Web](https://github.com/ViniciusCassemira/Fatec-ProvaWeb1)
+* [1º prova Algoritmos e Lógica de Programação](https://github.com/ViniciusCassemira/Fatec-ProvaAlgoritmo1)
