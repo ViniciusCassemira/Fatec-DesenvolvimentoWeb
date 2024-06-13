@@ -22,6 +22,7 @@ A datas abaixo estão no formato `dia`/`mês`:
 - 18/04: Prova 1 Desenvolvimento Web [Confira o repositório do meu resultado da prova clicando aqui](https://github.com/ViniciusCassemira/provaWeb)
 - 25/04: Animações e transições em CSS
 - 02/05: Introdução ao Display Flex
+- 13/06: Primeiro contato com JavaScript: Agenda com HTML5, CSS3 e JavaScript
 
 
 ## Outros conteúdos feitos em sala
