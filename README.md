@@ -30,3 +30,4 @@ A datas abaixo estão no formato `dia`/`mês`:
 * [Algoritmos e Lógica de programação](https://github.com/viniciuscassemira/algoritmos)
 * [1º prova Desenvolvimento Web](https://github.com/ViniciusCassemira/Fatec-ProvaWeb1)
 * [1º prova Algoritmos e Lógica de Programação](https://github.com/ViniciusCassemira/Fatec-ProvaAlgoritmo1)
+* [2º prova Algoritmos e Lógica de Programação](https://github.com/ViniciusCassemira/Fatec-ProvaAlgoritmo2)
