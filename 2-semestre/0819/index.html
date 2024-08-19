@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/style.css">
+        <title>Primeira aula</title>
+    </head>
+    <body>
+        <h1>sou um título</h1>
+
+        <form id="form" action="" method="post">
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="Seu primeiro nome" id="nome" required><br>
+            
+            <label for="sobreNome">Sobrenome</label>
+            <input type="text" placeholder="Seu sobrenome" id="sobreNome" required><br><br>
+        </form>
+        <button id="juntar" onclick="juntarNome()">Nome completo</button><br><br>
+        <button id="juntar" onclick="limparNome()">Limpar nome</button><br>
+        <hr>
+        <h3>Seu nome completo</h3>
+        <p id="nomeCompleto">Vai aparecer aqui</p>
+
+        <script src="js/script.js"></script>
+    </body>
+</html>
