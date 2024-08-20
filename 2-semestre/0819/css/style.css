@@ -2,4 +2,17 @@ body{
     background-color: rgb(184, 240, 170);
     font-family: arial;
     text-align: center;
+    margin: 0;
+}
+input{
+    border-radius: 0.5em;
+    border: none;
+    height: 1.5em;
+}
+button{
+    border-radius: 0.3em;
+    border: 1px solid black;
+    height: 2em;
+    background-color: rgb(93, 233, 105);
+    cursor: pointer;
 }

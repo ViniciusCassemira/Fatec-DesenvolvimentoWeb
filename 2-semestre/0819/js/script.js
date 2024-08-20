@@ -3,11 +3,35 @@ function juntarNome(){
     let sobreNome = document.getElementById("sobreNome").value;
     let nomeCompleto = nome + " " + sobreNome;
     document.getElementById("nomeCompleto").innerHTML = "<strong>" + nomeCompleto + "</strong>";
+    mostrarLog(nome,sobreNome,nomeCompleto)
+    mostrarAlert(nome,sobreNome,nomeCompleto)
 }
 
-function limparNome(){
-    document.getElementById("nome").value = "";
-    document.getElementById("sobreNome").value = "";
-    document.getElementById("nomeCompleto").innerHTML = "";
-    // document.getElementById("form").reset();  -- podemos usar esse tmb
+function limparForm(){
+    // document.getElementById("nome").value = ""; -- jeito de limpar o forms
+    // document.getElementById("sobreNome").value = ""; -- jeito de limpar o forms
+    document.getElementById("form").reset();
+    document.getElementById("nomeCompleto").innerHTML = "Vai aparecer aqui";
+    focoCursor()
+    console.clear();
+}
+
+function focoCursor(){
+    document.getElementById("nome").focus(); /*Traz o cursor do mouse no input nome*/
+}
+
+function mostrarLog(n,s,nc){
+    console.log("nome: " + n)
+    console.log("sobrenome: " + s)
+    console.log("nome completo: " + nc)
+}
+
+function outroHtml(arquivo){
+    window.location.href = arquivo+'.html';
+}
+
+function mostrarAlert(n,s,nc){
+    alert("Nome: " + n);
+    alert("Sobrenome: " + s);
+    alert("Nome completo: " + nc);
 }

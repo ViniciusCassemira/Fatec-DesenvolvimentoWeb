@@ -6,20 +6,22 @@
         <link rel="stylesheet" type="text/css" href="/css/style.css">
         <title>Primeira aula</title>
     </head>
-    <body>
-        <h1>sou um título</h1>
+    <body onload="focoCursor()">
+        <h1>Descubra seu nome inteiro</h1>
 
         <form id="form" action="" method="post">
-            <label for="nome">Nome</label>
-            <input type="text" placeholder="Seu primeiro nome" id="nome" required><br>
+            <label for="nome">Nome:</label>
+            <input type="text" placeholder="primeiro nome" id="nome" required><br><br>
             
-            <label for="sobreNome">Sobrenome</label>
-            <input type="text" placeholder="Seu sobrenome" id="sobreNome" required><br><br>
+            <label for="sobreNome">Sobrenome:</label>
+            <input type="text" placeholder="sobrenome" id="sobreNome" required><br><br>
         </form>
-        <button id="juntar" onclick="juntarNome()">Nome completo</button><br><br>
-        <button id="juntar" onclick="limparNome()">Limpar nome</button><br>
+        <button id="juntar" onclick="juntarNome()">Juntar nome</button><br><br>
+        <button id="limpar" onclick="limparForm()">Limpar página</button><br><br>
+        <button id="imprimir" onclick="window.print()">Imprimir página</button><br><br>
+        <button onclick="outroHtml('robson')">outro html só para testar</button>
         <hr>
-        <h3>Seu nome completo</h3>
+        <h3>Seu nome completo:</h3>
         <p id="nomeCompleto">Vai aparecer aqui</p>
 
         <script src="js/script.js"></script>
