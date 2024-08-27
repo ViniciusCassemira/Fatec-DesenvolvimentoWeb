@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div id="calculadora">
+        <h1>Calculadora simples</h1>
+        <body>
+            <form id="" action="#" method="post"> 
+                <!-- <div> -->
+                    <label for="valor1">valor 1</label>
+                    <input type="text" autocomplete="off" id="valor1" placeholder="Insira o primeiro valor" required><br>
+                    <!-- </div> -->
+                    <!-- <div> -->
+                        <label for="valor2">valor 2</label>
+                        <input type="text" autocomplete="off"    id="valor2" placeholder="Insira o segundo valor" required><br>
+            <!-- </div> -->
+        </form>
+        <button id="somar" onclick="somar()">+</button>
+        <button id="subtrair" onclick="subtrair()">-</button>
+        <button id="multiplicar" onclick="multiplicar()">*</button>
+        <button id="dividir" onclick="dividir()">/</button><br>
+        <hr>
+        <h3>Resultado:</h3>
+        <div class="caixaResultado">
+            <p id="resultado"></p>
+        </div>
+    </div>
+        <script src="js/script.js"></script>
+        <!-- <button id="calcular">Calcular</button> -->
+    </body>
+</body>
+</html>

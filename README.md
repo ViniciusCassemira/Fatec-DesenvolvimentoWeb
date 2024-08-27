@@ -23,6 +23,8 @@ A datas abaixo estão no formato `dia`/`mês`:
 - 25/04: Animações e transições em CSS
 - 02/05: Introdução ao Display Flex
 - 13/06: Primeiro contato com JavaScript: Agenda com HTML5, CSS3 e JavaScript
+- 20/08: Juntando nome e sobrenome com JavaScript
+- 27/08: Calculadora simples com JavaScript
 
 
 ## Outros conteúdos feitos em sala
