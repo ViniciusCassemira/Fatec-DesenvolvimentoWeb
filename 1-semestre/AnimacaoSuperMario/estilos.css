@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+@keyframes mario{
+    0%{
+    margin-left: 0%;
+    }
+    50%{
+        margin-left: 50%;
+        margin-bottom: 0px
+    }
+    55%{
+        margin-bottom: 40px;
+    }
+    60%{
+        margin-bottom: 0px;
+    }
+    100%{
+        margin-left: 100%;
+    }
+}
+
+@keyframes fundo{
+    0%{
+        background-position-x:200%;
+    }
+    100%{
+        background-position-x: -512px;
+    }
+}
+
+@keyframes grama{
+    from{
+        margin-left: 1024px;
+    }
+    to{
+        margin-left: -508px;
+    }
+}
+body{
+    background-color: black;
+
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#container{
+    
+    height: 440px;
+    width: 1024px;
+    position: absolute;
+
+    align-items: end;
+    /* border: 1px solid rgb(255, 0, 0); */
+
+    background-image: url(./img/back.png);
+    background-repeat: repeat-x;
+    overflow: hidden;
+    animation-name: fundo;
+    animation-timing-function: linear;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    display: flex;
+}
+
+
+#grama{
+    /* border: 1px solid black; */
+    position: absolute;
+    z-index: 1;
+
+    position: relative;
+    animation-name: grama;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+    margin-bottom: 3px;
+}
+
+#mario{
+    z-index: 2;
+    /* border: 1px solid pink; */
+    position: absolute;
+
+    animation-name: mario;
+    animation-timing-function: linear;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+}
