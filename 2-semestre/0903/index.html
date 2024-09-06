@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Média final DW2</title>
+</head>
+<body>
+    <h1>Calcule sua média</h1>
+    <form id="media" method="POST" action="#">
+        <label for="avaliacao1">Avalicação 1 (A1)</label>
+        <input type="text" id="avaliacao1" placeholder="Nota da avaliação 1">
+        <label for="avaliacao2">Avalicação 2 (A2)</label>
+        <input type="text" id="avaliacao2" placeholder="Nota da avaliação 2">
+        <label for="projeto1">Projeto 1 (P1)</label>
+        <input type="text" id="projeto1" placeholder="Nota do projeto 1">   
+        <label for="projeto2">Projeto 2 (P2)</label>
+        <input type="text" id="projeto2" placeholder="Nota do projeto 2">
+        <label for="pdiaria">Participação Diária (PD)</label>
+        <input type="text" id="pdiaria" placeholder="Nota da participação diária">
+    </form>
+    <div class="botoes">
+        <button id="calcularMedia">Calcular</button>
+        <button id="limparForm">Limpar</button>
+    </div>
+    <br>
+    <hr/>
+    <br>
+    <p>
+        <span>Sua média final foi:</span>
+        <span id="mediaSpan"></span>
+    </p>
+    <p>
+        <span>Resultado final:</span>
+        <span id="resultadoSpan"></span>
+    </p>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

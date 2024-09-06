@@ -21,10 +21,12 @@ A datas abaixo estão no formato `dia`/`mês`:
 - 11/04: Exercício criando branch / merge / pull request [Acesse o repositório dessa aula por aqui](https://github.com/ViniciusCassemira/AulaDesenvolvimentoWeb1_1104)
 - 18/04: Prova 1 Desenvolvimento Web [Confira o repositório do meu resultado da prova clicando aqui](https://github.com/ViniciusCassemira/provaWeb)
 - 25/04: Animações e transições em CSS
+- Animacção Super Mario CSS: Se [Clique para conferir a pasta do projeto dentro deste repositório](https://github.com/ViniciusCassemira/Fatec-DesenvolvimentoWeb/tree/master/1-semestre/AnimacaoSuperMarioCSS)
 - 02/05: Introdução ao Display Flex
 - 13/06: Primeiro contato com JavaScript: Agenda com HTML5, CSS3 e JavaScript
 - 20/08: Juntando nome e sobrenome com JavaScript
 - 27/08: Calculadora simples com JavaScript
+- 03/09: Calcular média da disciplina em JS
 
 
 ## Outros conteúdos feitos em sala
