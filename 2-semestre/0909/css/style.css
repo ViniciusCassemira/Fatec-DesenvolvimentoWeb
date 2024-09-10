@@ -1,0 +1,24 @@
+
+/* Transcendi nesse trecho do css slk*/
+
+/*Todos os inputs terão uma margin-top de 15px*/
+input{
+    margin-top: 15px;
+}
+/*Todos os inputs do tipo text terão o display block*/
+/*um input text sobre o outro input text*/
+input[type=text]{
+    display: block;
+}
+
+.button{
+    color: white;
+    background-color: dodgerblue;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+}
