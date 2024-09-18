@@ -21,6 +21,10 @@ form{
     margin: 1vh auto;
     background-color: aliceblue;
 }
+legend{
+    text-align: left;
+}
+
 input{
     margin: 1%;
     height: 20px;

@@ -27,7 +27,7 @@ A datas abaixo estão no formato `dia`/`mês`:
 - 20/08: Juntando nome e sobrenome com JavaScript
 - 27/08: Calculadora simples com JavaScript
 - 03/09: Calcular média da disciplina em JS
-
+- 09/09: Exercícios com POST e GET
 
 ## Outros conteúdos feitos em sala
 
