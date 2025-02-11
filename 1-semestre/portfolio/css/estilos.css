@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+@font-face{
+    font-family: 'Raster';
+    src: url(/assets/fontes/raster.ttf);
+
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+/* efeito de animação piscando */
+.barra-digitar{
+    animation: barra-digitar 1.3s infinite linear;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    color: white;
+
+    font-family: raster;
+    font-size: 18px;
+
+    background: rgb(0,0,0);
+    z-index: 1;
+}
+
+#cabecalho-logo{
+    color: white;
+    margin-left: 5%;
+}
+
+.cabecalho-item{
+    display: flex;
+    gap: 40px;
+    margin-right: 5%;
+}
+.cabecalho-item a{
+    color: white;
+    padding: 1px;
+}
+
+.cabecalho-seta{
+    opacity: 0;
+}
+
+.cabecalho-item a:hover .cabecalho-seta{
+    opacity: 1;
+}
+
+footer{
+    text-align: center;
+    font-family: raster;
+    /* background-color: black; */
+}

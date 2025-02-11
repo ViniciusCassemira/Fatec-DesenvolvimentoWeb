@@ -1,0 +1,49 @@
+#contato{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14%;
+    width: 50%;
+}
+#contato h2{
+    text-align: center;
+    color: green;
+
+    font-family: raster;
+    font-size: 27px;
+}
+
+#contato-grupo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2%;
+}
+.contato-elemento{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(82, 82, 82);
+    text-align:center;
+
+    scale: 1.00;
+    transition: 0.3s;
+}
+#contato div:hover{
+    scale: 1.02;
+    transition: 0.3s;
+    background-color:rgb(179, 179, 179);
+}
+
+.contato-elemento a{
+ display: flex;
+ align-items: center;
+}
+.contato-elemento a img{
+    height: 40px;
+}
+.contato-elemento a p{
+    font-family: raster;
+    font-size: 21px;
+    margin: 2px;
+    color: rgb(0, 0, 0);
+}

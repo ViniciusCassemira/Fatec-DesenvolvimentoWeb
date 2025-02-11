@@ -1,0 +1,33 @@
+#sobre-mim{
+    height:700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:8%;
+}
+#sobre-mim-subtitulo{
+    color: green;
+    font-family: raster;
+    font-size: 27px;
+    text-align: center;
+}
+
+.sobre-mim-conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.sobre-mim-conteudo p{
+    width: 500px;
+    height: max-content;
+    font-family: Raster;
+    font-size: 20px;
+}
+.sobre-mim-foto{
+    height: 350px;
+    /* border: 2px solid green; */
+    border-radius: 4px;
+}

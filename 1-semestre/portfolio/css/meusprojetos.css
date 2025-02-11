@@ -1,0 +1,77 @@
+#comunidade{
+    height: 400px;
+    display: flex;
+    /* background-color: rgb(18,18,18); */
+    /* border: 1px solid blue; */
+}
+
+#meus-projetos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:10%;
+    width: 50%;
+    /* border: 1px solid green; */
+}
+
+.meus-projetos-subtitulo{
+    text-align: center;
+    color: green;
+
+    font-family: raster;
+    font-size: 27px;
+}
+
+
+.meus-projetos-grupo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 40%;
+    /* width: 50%; */
+}
+
+.meus-projetos-projeto{
+    width: max-content;
+}
+
+.meus-projetos-projeto a{
+    font-family: raster;
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    /* gap: 7%; */
+    color: white;
+}
+
+.cabecalho-seta{
+    opacity: 0;
+}
+.meus-projetos-projeto a:hover .cabecalho-seta{
+    opacity: 1;
+}
+
+.meus-projetos-projeto h3{
+    text-align: center;
+}
+
+video{
+    position: relative;
+    overflow: hidden;
+    width: auto;
+
+}
+#video-meus-projetos{
+    z-index: -1;
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    width: 1px;
+    opacity: 0.2;
+    scale: 1.05;
+
+    filter: blur(0.5px);
+    -webkit-filter: blur(0.5px);
+    -moz-filter: blur(0.5px);
+}

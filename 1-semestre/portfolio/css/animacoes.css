@@ -1,0 +1,65 @@
+@keyframes pulsar{
+    50%{
+        border-color: transparent;
+    }
+}
+
+@keyframes escrita1{
+    0%{
+        width: 0;
+    }
+
+    99.9%{
+        border-right: 2px solid green ;
+    }
+    100%{
+        border: none;
+    }
+}
+
+@keyframes escrita2{
+    0%{
+        width: 0;
+    }
+
+    1%{
+        opacity: 1;
+    }
+    99.9%{
+        border-right: 2px solid green;
+    }
+    100%{
+        opacity: 1;
+        border: none;
+    }
+}
+
+@keyframes escrita3{
+    0%{
+        width: 0;   
+    }
+    1%{
+        opacity: 1;
+    }
+    99.9%{
+        border-right: 2px solid green ;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes carrosel{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
+
+@keyframes barra-digitar{
+    50%{
+        color: transparent;
+    }
+}
