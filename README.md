@@ -28,10 +28,6 @@ A datas abaixo estão no formato `dia`/`mês`:
 - 27/08: Calculadora simples com JavaScript
 - 03/09: Calcular média da disciplina em JS
 - 09/09: Exercícios com POST e GET
+- 02/11: Introdução ao C# MVC
 
 ## Outros conteúdos feitos em sala
-
-* [Algoritmos e Lógica de programação](https://github.com/viniciuscassemira/algoritmos)
-* [1º prova Desenvolvimento Web](https://github.com/ViniciusCassemira/Fatec-ProvaWeb1)
-* [1º prova Algoritmos e Lógica de Programação](https://github.com/ViniciusCassemira/Fatec-ProvaAlgoritmo1)
-* [2º prova Algoritmos e Lógica de Programação](https://github.com/ViniciusCassemira/Fatec-ProvaAlgoritmo2)
